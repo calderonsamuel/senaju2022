@@ -1,0 +1,145 @@
+---
+title: "Tomar decisiones basadas en datos"
+subtitle: "Uso de tecnologías para la sistematización y trabajo de datos de poblaciones y comunidades"
+author: "Samuel Calderon"
+format: 
+    revealjs:
+        theme: solarized
+        footer: "Encuentro de experiencias: jóvenes ganadores del Premio Nacional de la Juventud"
+---
+
+## Sobre mí
+
+- Experiencia en organización juvenil 
+    - MANTHOC
+    - Colectivo / Consejo Estudiantil
+- Politólogo
+- Servidor público: INEI, Ministerio de Vivienda, SUNEDU, Ministerio del Interior
+
+## Sobre la presentación
+
+- Basada en el Certificado Profesional de Analista de Datos, de Google
+- No se abarcará temas estadísticos ni matemáticos
+- No es un tutorial sobre algún software específico, sino un conjunto de recomendaciones para mejorar la toma de decisiones de tu organización.
+
+# Las seis fases del análisis de datos
+
+## Preguntar
+
+- Se debe entender claramente para qué se va a hacer el análisis. 
+    - ¿Quiero entender algo o mejorarlo?
+- Obtener la pregunta correcta es un arte y **requiere mucha práctica**.
+- Es mejor si **varias personas** participan de la elaboración de una pregunta.
+- Es importante **limitar expectativas**. 
+
+---
+
+Una buena pregunta es:
+
+- Específica: Aborda el problema en cuestión en un determinado contexto
+- Medible: Te brinda respuestas que puedes medir
+- Relevante: Es verdaderamente enfocada al problema que tratas de resolver
+- Orientada a la acción: Las respuestas te darán insumos para actuar al respecto
+- Limitada en el tiempo: Las respuestas serán relevantes para el tiempo que se está estudiando
+
+¿Qué características debería tener un taller de títeres para niños de San Juan de Lurigancho, en verano?
+
+## Preparar los datos
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Esto consiste básicamente en obtener la información que te permitirá responder la pregunta en cuestión. 
+
+- La fuente puede ser interna o externa.
+
+- A veces va a ser necesario colectar la data por ti mismo. Si es así, evita preguntas abiertas.
+
+:::
+
+::: {.column width="50%" layout="[[-1], [1], [-1]]"}
+![](img/find-data.jpg)
+:::
+
+::::
+
+
+
+## Procesar los datos
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Consiste en encontrar inconsistencias, errores, valores perdidos o imprecisiones en los datos obtenidos. 
+
+- Este paso es comúnmente llamado *limpiar los datos*
+
+- Tiene que hacerse de tal manera que no afecte la obtención de una respuesta correcta a la pregunta planteada
+
+:::
+
+::: {.column width="50%" layout="[[-1], [1], [-1]]"}
+![](img/cleaning.jpg)
+:::
+
+::::
+
+
+
+## Analizar los datos
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- El objetivo en esta fase es encontrar las relaciones, tendencias y patrones que te ayuden a resolver la pregunta planteada.
+
+- En general, se trata de obtener conocimiento a partir de los datos.
+
+:::
+
+::: {.column width="50%" layout="[[-1], [1], [-1]]"}
+![](img/analysis.jpg)
+:::
+
+::::
+
+
+
+## Comunicar
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- El objetivo en esta fase es compartir tus hallazgos. La idea es hacer entender a otras personas rápidamente las respuestas obtenidas.
+
+- Te puedes ayudar de visualizaciones (gráficos, infografías, tablas) que resuman la información.
+
+:::
+
+::: {.column width="50%"}
+
+![](img/dashboard.png)
+
+:::
+
+::::
+
+## Actuar
+
+- En la última fase se usa toda la información obtenida para tomar decisiones.
+- Las decisiones deben tomarse apoyadas en la evidencia generada en el proceso de análisis de datos.
+- Muchas organizaciones omiten este paso, haciendo que todo el proceso no haya valido la pena.
+
+# Consejos generales
+
+---
+
+- Tomarse el tiempo necesario para hacerse preguntas que cumplan con las características propuestas
+- No ser devoto de ninguna tecnología en particular, casi todas pueden servir para todas las fases (Excel, Google Sheets, R, Python)
+- Aprovechar las herramientas gratuitas (Google Forms + Google Sheets son un buen inicio)
+- Si tu organización no ha implementado ninguna de estrategia de datos, sugiérelo. Si pasa el tiempo y no lo hace, preocúpate.
+
