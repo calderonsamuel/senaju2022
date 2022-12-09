@@ -33,9 +33,7 @@ output-file: index.html
 - Es mejor si **varias personas** participan de la elaboración de una pregunta.
 - Es importante **limitar expectativas**. 
 
----
-
-Una buena pregunta es:
+## Una buena pregunta es {.smaller}
 
 - Específica: Aborda el problema en cuestión en un determinado contexto
 - Medible: Te brinda respuestas que puedes medir
@@ -67,7 +65,7 @@ Una buena pregunta es:
 
 
 
-## Procesar los datos
+## Procesar los datos {.smaller}
 
 :::: {.columns}
 
